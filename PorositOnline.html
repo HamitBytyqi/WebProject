@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="PorositOnlineStyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+    <title>Porosit Online</title>
+  </head>
+    <header>
+      <div id="header">
+      <h1>-SIXSEVEN-
+      </h1>
+      <h2>-Selektoni pasta te cilat me pas do shtohen tek fatura juaj me cmimet te cilat i keni tek Menu-</h2>
+      </div>
+    </header>
+    <body>
+      
+        <br>
+        <fieldset>
+        <h3 id="h3"><label for="products">Products</label></h3>
+        <select name="products" id="dropdown">
+          <option value="selection">Select</option>
+          <option value="madhe">Kupa madhe</option>
+          <option value="standarde">Kupa standarde</option>
+          <option value="vogel">Kupa vogel</option>
+        </select>
+        <select name="products" id="dropdown">
+          <option value="selection">Select</option>
+          <option value="Ngrohta">Pasta te ngrohta</option>
+          <option value="Ftohta">Pasta te ftohta</option>
+        </select>
+        <button type="submit">Add to Cart</button>
+        <span><label for="Numri">Numri:</label></span>
+        <input name="Numri" type="number" min="0" max="13" required  id="Numri">
+        <br>
+        <span><label for="quantity">Quantity:</label></span>
+        <input name="quantity" type="number" min="0" max="25" required  id="quantity">
+      </fieldset>
+
+      
+      <fieldset>
+        <h3>Order Information</h3>
+        <span><label for="name">Emri: </label></span>
+        <input type="text" name="" value="">
+        <span><label for="name">Adressa: </label></span>
+        <input type="text" name="" value="">
+        <span><label for="name">Qyteti: </label></span>
+        <input type="text" name="" value="">
+        
+      </form>
+      </fieldset>
+
+      <fieldset>
+        <legend><h3>Informacione te Pageses</h3></legend>
+        <form>
+        <span><label for="cc-number">Credit Card Number</label></span>
+        <input class="cc-number" maxlength="16" name="credit-number" pattern="\d*" placeholder="Card Number" type="tel" />
+        <br>
+        <span><label for="credit-expires"></label>Expiration Date</span>
+        <input class="cc-expires" maxlength="7" name="credit-expires" pattern="\d*" placeholder="MM / YY" type="tel" />
+        <br>
+        <span><label for="credit-cvc">CVC</label></span>
+        <input class="cc-cvc" maxlength="4" name="credit-cvc" pattern="\d*" placeholder="###" type="tel" />
+        <br>
+        <span><label></label></span>
+        <button><input class="form-submit" type="submit" value="Pay Now"/></button>
+      </fieldset>
+    </form>
+  </body>
+</html>

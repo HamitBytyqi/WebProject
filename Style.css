@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: black;
+}
+.logo-box {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 220px;
+    height: 100px;
+    margin-left: 50px;  
+}
+nav {
+    display: flex;
+    list-style: none;
+    align-items:flex-end;
+}
+li {
+    padding-top: 7px;
+    margin-left: 50px;
+    font-size: 20px;
+    color: white;
+    font-style:normal;
+}
+a {
+    text-decoration:none;
+}
+li:hover {
+    border-bottom: 3px solid yellow;
+}
+.socials{
+    display: flex;
+    list-style:none;
+    align-items:flex-end;
+}
+.ico-box {
+    padding-bottom: 30px;
+    width: 83px;
+    height: 45px;
+}
+.fig {
+    height: 415px;
+    width: 1515px;
+    padding-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+.foto1-div{
+    height: 300px;
+    width: 545px;
+    position: relative;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
+.foto2-div{
+    height: 300px;
+    width: 545x;
+    margin-left: 1%;
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+
+}
+.foto3-div{
+    height: 300px;
+    width: 545x;
+    margin-left: 100%;
+    position: relative;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+
+}
+.white-div{
+    height: 150px;
+    color: white;
+    margin-right: 50%;
+    
+}
+.white-div li{
+
+   text-align: left;
+   padding-top: 1px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   margin-top: 0%;
+   margin-left: 5%;
+   border-bottom: none;
+   
+}
+.white-div p{
+    text-align:justify;
+    padding:5px;
+}
+.second-white-div{
+    height: 150px;
+    color: white;
+    margin-left: 50%;
+    
+}
+.second-white-div li{
+
+   text-align: left;
+   padding-top: 1px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   margin-top: 0%;
+   margin-left: 5%;
+   border-bottom: none;
+   
+}
+.second-white-div p{
+    text-align:justify;
+    padding:5px
+    ;
+}
+

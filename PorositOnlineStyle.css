@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  header, aside, span{
+    display: block;
+    }
+  
+  body{
+    background: linear-gradient(70deg, orange,  black);	
+    margin: 0;
+  }
+  
+  header{
+    background: linear-gradient(70deg, orange,  black);
+    padding: 20px;
+  }
+  
+  form {
+    padding: 20px 0px 40px 40px;
+  }
+  
+  .form-submit{
+    background-color:white;
+    color: black;
+  }
+  
+  h3 {
+    color: white;
+    margin-left: 0;
+    font-family: sans-serif;
+    font-size: 28px;
+  }
+  
+  span {
+    padding-left: 5%;
+    padding: 5px 0;
+  }
+  
+  .cart{
+    float: right;
+    margin-top: 6%;
+    margin-right: 5%;
+  
+  }
+  #header{
+    font-family: 'Patua One',monospace;
+    text-align:center;
+    font-size: 60px;
+    color:orange;
+    padding: 40px;
+    box-shadow: 0 12px 16px 0 orange black;
+  }
+  button{
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #E0FFFF;
+    background-color: orange;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 6px white;
+    box-shadow: 0 12px 16px 0 black;
+  }
+  
+  .prodInfo{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    float: right;
+    padding: 50px 100px 0 0;
+  }
+  
+  a:hover {
+    cursor: pointer;
+  }
+  
+  h1 {
+    
+    font-size: 160px;
+    font-family: 'Patua One',monospace;
+    color:orange;
+    background: white;
+  
+  }
+  h2 {
+    font-size: 50px;
+    font-family: 'Patua One',monospace;
+    color:orange;
+    background: white;
+  }
+  
